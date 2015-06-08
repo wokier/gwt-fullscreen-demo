@@ -1,0 +1,48 @@
+html, body {
+	font-family: 'Lato', sans-serif;
+}
+a {
+	font-size: 1.2rem;
+	padding: 0 6px;
+}
+a.active {
+	background: cornflowerblue;
+	color: white;
+	text-decoration: none;
+}
+a.active:hover, a.active:active, a.active:focus, a.active:visited {
+	color: white;
+}
+
+#toggle{
+	position: absolute;
+	top: 0;
+	right: 8px;
+	font-size: 1.3rem;
+	cursor: pointer;
+}
+#inputContainer{
+	position: absolute;
+	top: 4px;
+	right: 30px;
+}
+#welcome {
+	font-size: 1.6rem;
+}
+
+html:-moz-full-screen {
+    background: green;
+}
+ 
+html:-webkit-full-screen {
+    background: green;
+}
+ 
+html:-ms-fullscreen {
+    background: green;
+    width: 100%;
+}
+ 
+html:fullscreen {
+    background: green;
+}

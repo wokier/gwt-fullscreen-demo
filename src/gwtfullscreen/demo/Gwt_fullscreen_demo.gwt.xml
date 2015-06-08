@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.7.0//EN" "http://www.gwtproject.org/doctype/2.7.0/gwt-module.dtd">
+<module rename-to="gfd">
+	<inherits name='com.google.gwt.activity.Activity' />
+	<inherits name='com.google.gwt.place.Place' />
+	<inherits name="com.google.gwt.user.User" />
+	<inherits name="com.google.gwt.user.theme.standard.Standard" />
+	<inherits name="com.google.gwt.user.theme.standard.StandardResources" />
+
+	<inherits name="gwtfullscreen.gwtFullscreen" />
+
+	<entry-point class="gwtfullscreen.demo.client.DemoEntryPoint" />
+
+	<source path="client" />
+
+</module>
