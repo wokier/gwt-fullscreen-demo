@@ -113,9 +113,10 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.github.wokier.gwt-fullscreen</groupId>
+			<groupId>com.github.wokier</groupId>
 			<artifactId>gwt-fullscreen</artifactId>
 			<version>0.0.1</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.google.gwt</groupId>
